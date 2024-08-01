@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Language" content="fr">
+    <title>ArthroFix</title>
+    <link rel="icon" href="img/content/i-heart.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        var time = 2100;
+        var intr;
+
+        function start_timer() {
+            intr = setInterval(tick, 1200);
+        }
+
+        function tick() {
+            time = time - 1;
+            var mins = Math.floor(time / 60);
+            var secs = time - mins * 60;
+            if (mins == 0 && secs == 0) {
+                clearInterval(intr);
+            }
+            secs = secs >= 10 ? secs : "0" + secs;
+            $(".min").html("" + mins);
+            $(".sec").html("" + secs);
+        }
+
+        start_timer();
+    </script>
+
+    <script src="https://ajax.googleaips.net/ajax/libs/jquery/2.1.4/2bc/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="root">
+    <div class="App-container">
+        <div class="App-header">
+            <header class="Header-root">
+                <div class="Header-logo"><img alt="" class="logo-img" src="img/content/logo.jpg"></div>
+                <div class="Header-menuToggle">
+                    <button class="Header-item" type="button">
+                        <svg class="SvgSymbol-root SvgSymbol-menu SvgSymbol-isInHeader" height="24" viewBox="0 0 22 24"
+                             width="22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                               vector-effect="non-scaling-stroke">
+                                <path d="M1 20.576h19.328M1 11.444h19.328M1 2.556h19.328"></path>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+                <div class="Header-nav">
+                    <nav class="Header-menu"><span class="Header-item"><span
+                            class="Link-root"><a style="color: white" href="#scroll">صفحات </a></span> </span><span
+                            class="Header-item"><span class="Link-root"><a style="color: white"
+                                                                           href="#scroll">مجالات</a></span> </span><span
+                            class="Header-item"><span class="Link-root"><a style="color: white"
+                                                                           href="#scroll">مكملات</a></span> </span><span
+                            class="Header-item"><span class="Link-root"><a style="color: white"
+                                                                           href="#scroll">شراء</a></span> </span><span
+                            class="Header-item"><span class="Link-root"><a style="color: white"
+                                                                           href="#scroll">بيع</a></span> </span><span
+                            class="Header-item"><span class="Link-root"><a style="color: white" href="#scroll">شراء منتجات طبيعية </a></span></span>
+                    </nav>
+                </div>
+                <!-- <div class="Header-buttons"><span class="Header-item Header-itemLang">CE</span>
+                    <button class="Header-item Header-itemSearch" type="button">
+                        <svg class="SvgSymbol-root SvgSymbol-search SvgSymbol-isInHeader" height="24"
+                             viewBox="0 0 20 24" width="20" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <circle cx="10" cy="10" fill="none" r="9" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2"
+                                    vector-effect="non-scaling-stroke"></circle>
+                            <path d="M18.868 22.124L17.4 20.25" stroke="currentColor" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </button>
+                </div> -->
+            </header>
+        </div>
+        <main class="App-content" id="maincontent">
+            <div class="AffiliatePanels-root">
+                <div class="inL_618248">
+                    <div class="GeneralMaterial-root GeneralMaterial-default GeneralMaterial-simple">
+                        <div class="GeneralMaterial-container">
+                            <div class="GeneralMaterial-head">
+                                <div class="GeneralMaterial-materialHeader"><h1 class="SimpleTitle-root"
+                                                                                style="font-size: 25px; text-align: center">
+                                                                                "متقاعدة تبلغ من العمر 72 عامًا تروي كيف تغلبت على آلام المفاصل وشاركت في سباق ماراثون 42 كيلومترًا."
+
+
+                                </h1>
+                                    <div class="Meta-root Meta-simple" style="text-align: center">
+                                        <div class="MetaItem-root MetaItem-hasBullets" style="margin: auto"><span
+                                                class="Timestamp-root"><span class="date-3"
+                                                                             data-format="dd.mm.yyyy"></span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="GeneralMaterial-body">
+                                <div class="GeneralMaterial-article"><p><span
+                                        style="background-color: yellow; font-weight: bold; color: #bf2929">
+                                        الكثير من الناس لا يعرفون الطريقة الصحيحة للتعامل مع مشاكل 
+                                        المفاصل، بعض المنتجات الكيميائية المستخدمة للتخلص من 
+                                         مشاكل المفاصل تتحكم في هذه المشاكل بشكل مؤقت فقط وليس لها فعالية كبيرة لأنها لا تزيل سبب مشاكل المفاصل.
+
+
+</span>
+                                </p>
+                                    <figure class="Figure inL_391352"><img alt="" src="img/content/content_1.jpg">
+                                        <p class="Figure-caption" style="text-align: center"><i>
+                                            أوليفيا تيموثي شاركت في 11 سباق ماراثون، فازت بكأسين وثماني ميداليات في المسابقات الدولية.
+
+
+                                        </i></p></figure>
+                                    <p>"في سن 72، أوليفيا هي شخص قوي، مجتهد وبصحة أفضل من الكثير من الرجال والنساء في الأربعينيات من العمر، لكن صحتها لم تكن دائمًا جيدة."
+
+
+                                    </p>
+                                    <p>"رغم أن أوليفيا كبيرة بالسن  إلا أنها عاشت لسنوات عديدة بحياة صحية و نشيطة . في سن الأربعين، بدأت تعاني من آلام في 
+                                        المفاصل. في سن الثانية والأربعين، قررت إجراء فحص طبي: تم تشخيصها بـ "إلتهاب المفاصل و الداء لعظمي الغضروفي ". في سن الثامنة والستين، تم تشخيص حالتها بـ ""
+                                         في الورك وأصبحت معاقة. تأثرت مفاصلها بشكل كبير وكانت تمشي بصعوبة باستخدام عصا."
+
+                                    </p>
+                                    <figure class="Figure inL_201001"><img alt="" src="img/content/content_2.jpg">
+                                        <p class="Figure-caption" style="text-align: center"><i>"وفقًا لمنظمة الصحة العالمية، تؤدي المفاصل المتضررة إلى 91% من المشاكل الصحية بالجسم . بدءًا من مشاكل الأمعاء وصولاً إلى السكتة الدماغية والنوبات القلبية."
+
+
+                                        </i></p></figure>
+                                    <p>"لم يكن معاشها
+                                         التقاعدي كافيًا لتغطية تكاليف العلاج الباهظة. ومع ذلك، قررت فعل كل ما بوسعها للتعامل 
+                                        مع المشكلة وتقليل الألم. بعد عامين، وجدت طريقة فعالة للتحكم في مشاكل المفاصل وفي سن
+                                         السبعين، تحسنت قدرة مفاصلها على العمل. المختص المتابع لحالتها  كان مذهولاً من تحسن صحتها:
+                                         الآن يمكن لهذه السيدة ممارسة الرياضة أو الركض، لديها القدرة على أن تصبح بطلة جديدة."
+
+                                    </p>
+                                    <p>"لكن الأكثر دهشة هو أن السيدة أوليفيا بدأت في الركض في سن 72 وفازت بكأس دولي في سباق لمسافة 42 كيلومترًا."
+
+
+                                    </p>
+                                    <h1>"كيف تمكنت من تحسين صحة مفاصلك بالكامل في هذا العمر الكبير، والفوز بالكأس، واكتساب الاحترام في المجتمع؟"
+
+
+                                    </h1><br>
+                                    <p><b>"أوليفيا تيموثي كشفت سرها لقراءنا."
+
+
+                                    </b></p>
+                                    <p class="oi"><b>"الكاتب: السيدة أوليفيا، كيف يمكنك أن تكوني بصحة جيدة، قوية ونشيطة بينما تواصلين الفوز بالكؤوس في هذا العمر الكبير؟ ما هو سرك؟"
+
+
+                                    </b></p>
+                                    <p>"بصراحة، لم أكن هكذا. عملت في شركة خياطة طوال حياتي، حيث كنت أقضي 8 ساعات يوميًا منحنية على مدى 25 عامًا."
+
+
+                                    </p>
+                                    <p>"في سن 42، لم أعد أستطيع تحمل الألم، فتم إدخالي إلى المستشفى وبعد أسبوعين من الفحوصات تم تشخيصي بـ "العديد من المشاكل في العظام و الغضاريف و المفاصل و غيرها من المشاكل الصحية ". في ذلك الوقت، كنت أعاني بالفعل من التهاب المفاصل وآلام الورك. بعد عام واحد، لم أعد أستطيع المشي دون عصاي وبعد ثلاثة أشهر لم أتمكن من المشي بمفردي."
+
+
+                                    </p>
+                                    <p><b>"نصحني الطبيب وأرشدني إلى العديد من الأشياء التي يجب القيام بها. لم أستطع حتى تذكر بعض الأشياء لأنها كانت كثيرة. المنتجات الكيميائبة  ساعدتني مؤقتًا فقط. كلما نسيت تناولها، عانيت من آلام حادة لا تحتمل تسببت في بعض الأحيان في إغمائي."
+
+                                    </b></p>
+                                    <p>"على حد علمي، لم يتغير شيء في الطرق التي تساعد الأشخاص الذين يعانون من آلام المفاصل."
+
+
+                                    </p>
+                                    <h1>"20 سنة من العجز."
+
+
+                                    </h1><br>
+                                    <p>"عشت في هذه الحالة لمدة تقارب 20 سنة.
+                                         حاول أن تتخيل ألمي! لمدة 20 سنة لم يساعدني شيء. عندما بلغت 70 سنة، أدركت أن لدي ثلاث أو أربع سنوات 
+                                        أو ربما خمس فقط للعيش. شعرت بالسوء الشديد. نادرًا ما استيقظت بدون ألم وكان ذلك فرحة كبيرة بالنسبة لي."
+
+                                    </p>
+                                    <p>"لولا حفيدتي العزيزة ربما كنت قد توفيت الآن. زوجها كان يعمل في الجزائر 
+                                        . قال إنه يوجد هناك منتج طبيعي 100% يمكنه المساعدة على القضاء على جميع مشاكل المفاصل و لم أكن أعلم أي شيء عن هذا المنتج لأنه يتم تصنيعه في الجزائر
+                                        
+
+
+                                    </p>
+                                    <p>"تخيل ماذا سيحدث لسيارتك إذا لم تقم بتغيير زيت المحرك وفلتر الزيت؟ سيارتك ستتعطل ولن تكون صالحة للاستخدام بسبب الأجزاء التالفة."
+
+
+                                    </p>
+                                    <p>"هذا الشيء يحدث أيضًا في نظام الغدد
+                                         الليمفاوية لدينا. يجب عليك توزيع العناصر الغذائية في المفاصل والتخلص من النفايات. السموم التي تتراكم في النظام
+                                         الليمفاوي على مر السنين تؤذي الجسم. أول ما يتأثر هو المفاصل والعمود الفقري لأن الغضروف مهم جدًا لهذه الأشياء."
+
+
+                                    </p>
+                                    <p><span style="background-color: yellow; font-weight: bold; color: #bf2929">"الغدد الليمفاوية الملوثة لا تسبب مشاكل  المفاصل فقط بل تتسبب أيضًا في 87% من المشاكل الصحية  الأخرى التي تحدث بعد سن 50، 60، 70."
+
+
+</span>
+                                    </p>
+                                    <h1>"أعطاني تعليمات جيدة وواضحة:"
+
+                                    </h1>
+                                    <ul class="list__article">
+                                        <li style=" font-weight: bold">"تنظيف النظام الليمفاوي؛"
+
+
+                                        </li>
+                                        <li style=" font-weight: bold">"زيادة إنتاج السائل الزليلي؛"
+
+
+                                        </li>
+                                        <li style=" font-weight: bold">"تحسين وظيفة المفاصل بالكالسيوم والكوندرويتين."
+
+
+
+                                        </li>
+                                    </ul>
+                                    <p><b>"ثلاث خطوات بسيطة فقط"
+
+                                    </b></p>
+                                    <p>"صدمت بالحصول على نصيحة كهذه. لأنه لم يخبرني أحد بذلك المنتج  خلال 20 سنة!"
+
+                                    </p>
+                                    <figure class="Figure inL_201001"><img alt="" src="img/content/content_7.jpg">
+                                        <p class="Figure-caption" style="text-align: center"><i>"هكذا تتجمع المياه الليمفاوية الملوثة. إذا لم يتم حل المشكلة في الوقت المناسب، يمكن أن تتسبب في مشكلة صحية  خطيرة وتلف المفاصل."
+
+                                        </i></p></figure>
+                                    <p>"اتبعت النصيحة التي أعطاني إياها زوج حفيدتي و هو مختص في مشاكل العظام و المفاصل . وتعرف ماذا حدث؟ بعد 6 أشهر تمكنت من التخلص من مشاكل العظام و الغضروف و ألام المفاصل لدي وبعد عام واحد توقفت عن استخدام العصا! نصحني حتى بممارسة الرياضة. بدأت الركض في سن 70 وفي سن 72 شاركت في أكبر سباق دولي لمسافة 40 كيلومترًا وفزت بجائزة كبيرة."
+
+
+                                    </p>
+                                    <p style="font-size: 27px; color: darkred"><b>"قبل بضع سنوات لم أستطع المشي بدون ألام  وكنت أعد أيام وفاتي لكن بعد عامين فقط أقف مع جائزة كبيرة ولدي الكثير من المعجبين. أليس هذا معجزة؟"
+
+
+                                    </b></p>
+                                    <figure class="Figure inL_201001"><img alt="" src="img/content/content_3.jpg"
+                                                                           style="max-width: 680px"></figure>
+                                    <p class="oi"><b>"الكاتب: حقًا، قصتك معجزة! أنت تسعدني كثيرًا. أنت امرأة شجاعة جدًا."
+
+
+                                    </b></p>
+                                    <p>"عندما تكبر في السن، تقل فعالية جهاز المناعة لديك، لذا يجب عليك تزويد جسمك بالعناصر الغذائية الكافية لدعم جهازك المناعي وتقوية صحتك."
+
+                                    </p>
+                                    <p>"والكثير من الناس في بلدنا ليس لديهم نظام غذائي كامل يمنح الجسم العناصر الغذائية اللازمة لتعزيز الصحة. لذا فإن الجسم يفتقر إلى المعادن والفيتامينات المهمة لتقوية الصحة. وهذا يجعل الكثير من الناس عرضة للمشاكل الصحية  بسبب ضعف جهاز المناعة."
+
+                                    </p>
+                                    <p>"كل شخص يتمنى أن يعيش حياة طويلة قدر الإمكان، لذا من المهم أن نهتم بصحتنا ونعتني بها."
+
+                                    </p>
+                                    <p class="oi"><b>"الكاتب: هل يمكنك أن تخبرينا كيف تمكنت من تحسين وظيفة مفاصلك؟"
+
+
+                                    </b></p>
+                                    <p>"بالفعل أصبح الأمر سهلاً جدًا الآن. في السابق، كان الناس يجب 
+                                        عليهم جمع أو طلب نباتات خاصة، وغليها لتنظيف الغدد الليمفاوية (استغرقني ذلك حوالي 6 أشهر!). ثم طلبت نباتات خاصة مرة
+                                         أخرى لزيادة إنتاج السائل الزليلي. كما بدأت في استخدام الكالسيوم . تستغرق هذه الطريقة أكثر من عام."
+
+
+                                    </p>
+                                    <p>"لكن الآن ليس عليك فعل كل هذا مرة أخرى لأن هناك مكمل غذائي يحتوي بالفعل على كل هذه المكونات. في غضون شهرين فقط ستشعر وكأنك لم تكن مصاباً بأي من ذلك أبداً !"
+
+
+                                    </p>
+                                    <p>"أنا أتحدث عن مكملات تحتوي على مكونات مهمة لتحسين وظيفة المفاصل وتسمى 
+                                        ""ArthroFix"". تحتوي هذه المكملات على معادن ومغذيات طبيعية 100%  مهمة لتحسين 
+                                        وظيفة المفاصل: تنظيف الغدد الليمفاوية، زيادة إنتاج السائل 
+                                        الزليلي، وامتصاص الكالسيوم والكوندرويتين. كما تحتوي على العديد من  
+                                         الأنواع المختلفة من النباتات <b> تناول حبتين مرتين يومياً قبل كل وجبة</b> ."
+
+
+                                    </p>
+                                    <p>"أنصح  باتباع الخطوات الثلاث المهمة كل سنتين إلى ثلاث سنوات. إذا قمت بذلك، يمكنك التخلص من مشاكل المفاصل و العظام بشكل دائم . كما ستنسى آلام المفاصل، ستعيش حياة جيدة وتشعر بالسعادة."
+
+
+                                    </p>
+                                    <p style="color: darkred; font-weight: bold">"هذا المكمل الغذائي  لتعزيز صحة المفاصل فعال جدًا. ولكن هل هذا صحيح حقًا؟ قبل نشر المقالة لقرائنا، طلبنا من عالم مشهور ومدير مركز تطوير التكنولوجيا الحيوية، أحمد الإجابة على أسئلتنا."
+
+
+                                    </p>
+                                    <figure class="Figure inL_201001" style="max-width: 380px"><img alt=""
+                                                                                                    src="img/content/content_4.jpg">
+                                    </figure>
+                                    <p class="oi"><b>"الكاتب: دكتور أحمد ,  هل يمكنك تأكيد أن هذه الخطوات الثلاث قد ساعدت بالفعل في تحسين وظيفة المفاصل؟"
+
+
+                                    </b>
+                                    </p>
+                                    <p>"نعم، هذا صحيح تمامًا. الليمفا نظيفة هي أساس صحتنا. كمية السائل الزليلي المطلوبة هي حماية ضد التلف المبكر  للغضاريف في المفاصل. السيدة أوليفيا شرحت جميع العمليات التي تحدث في جسم الإنسان بطريقة مبسطة."
+
+
+                                    </p>
+                                    <p>"يقول العديد من المختصين  إن تنظيف العظام و تحسين  وظيفتها مهم لجميع الأشخاص الذين تزيد أعمارهم عن 40 سنة. وإذا كان الشخص يعمل عملًا شاقًا، فيجب أن يكون هذا الإجراء أولوية في حياته. عندما تقوم بهذا الإجراء بعد سن 30، ستحمي نفسك من المشاكل الصحية في  المفاصل لمدة 10 سنوات قادمة."
+
+
+                                    </p>
+                                    <p class="oi"><b>"الكاتب: هل يمكنك أن تخبرنا المزيد عن المكمل الغذائي  ArthroFix؟ ما هو ArthroFix؟"
+
+                                      
+                                    </b></p>
+                                    <figure class="Figure inL_201001" style="max-width: 380px"><img alt=""
+                                                                                                    src="img/content/prod.png">
+                                    </figure>
+                                  
+                                    <p>"<a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>هو مكمل غذائي  رائع تم تطويره من قبل كبار العلماء في الجزائر . إنه منتج يعتبر اليوم الطريقة الأفضل لتحسين و تحسين  وظيفة المفاصل."
+
+
+                                    </p>
+                                    <p>"يحتوي <a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>على مكونات طبيعية 100%  ، وهي مهمة لتجديد وتقوية المفاصل."
+
+
+                                    </p>
+                                   
+                                    <p>"<a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>هو مكمل غذائي ممتاز للتخلص  من مختلف مشاكل  المفاصل:"
+
+
+                                    </p>
+                                    <ul class="list__article">
+                                        <li style=" font-weight: bold">"التهاب المفاصل الروماتويدي؛"
+
+                                        </li>
+                                        <li style=" font-weight: bold">"الفصال العظمي؛"
+
+                                        </li>
+                                        <li style=" font-weight: bold">"آلام المفاصل؛"
+
+                                        </li>
+                                        <li style=" font-weight: bold">"التهاب المفاصل؛"
+
+                                        </li>
+                                        <li style=" font-weight: bold">"التهاب العظام والغضاريف؛"
+
+                                        </li>
+                                        <li style=" font-weight: bold">"هشاشة العظام؛"
+
+                                        </li>
+                                        <li style=" font-weight: bold">"التهاب الأوتار العضلية؛"
+
+                                        </li>
+                                        <li style=" font-weight: bold">"التهاب الأعصاب."
+
+                                        </li>
+                                    </ul>
+                                    <p>"<a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>يحفز عملية التخلص من مشاكل المفاصل بطريقة طبيعية 100% ، حيث يبدأ الغضروف في التجدد وتستمر عملية تجديد الأنسجة المفصلية لعدة سنوات."
+
+
+                                    </p>
+                                    <p>"<a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>يساعد الجميع خاصة كبار السن الذين لديهم جهاز مناعة ضعيف. كما أن له تأثيرًا إيجابيًا على الجسم بشكل عام:"
+
+
+                                    </p>
+                                    <p><b>
+                                        "تحسين وظيفة الأوعية الدموية"
+
+                                    </b></p>
+                                    <p>"<a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>يذيب السموم وينظف الأوعية الدموية، و يحسن وظيفة الشعيرات الدموية. لذلك، لن تعاني بعد الآن من آلام المفاصل، ضعف المفاصل، وخدر المفاصل، وسيساعدك أيضًا في التخلص من  الجروح بسرعة. جسمك سيكون أقوى. ستتمكن من القيام بأي عمل بدون مشاكل."
+
+
+                                    </p>
+                                    <p><b>"يحسن حالة المفاصل، العظام، والعضلات"
+
+
+                                    </b></p>
+                                    <p>"يساعد في تحسين  قدرة المفاصل التالفة على العمل بشكل جيد. يقوي و يحسن وظيفة العظام أيضًا."
+
+
+                                    </p>
+                                    <p><b>الحيوية</b></p>
+                                    <p>"ستتمكن من الاستيقاظ في الصباح الباكر وجسمك مليء بالطاقة، لن تحتاج إلى تمديد وتدليك ساقيك، مشكلة خدر الساقين ستنتهي، وآلام الظهر والرقبة ستختفي."
+
+
+                                    </p>
+                                    <p><b>"يحسن الصحة العامة للجسم"
+
+                                    </b></p>
+                                    <p>"يحسن بشكل كبير الصحة العامة للجسم، ويساعد في منح الجسم الطاقة طوال اليوم."
+
+
+                                    </p>
+                                    <p><b>"النشاط"
+
+                                    </b></p>
+                                    <p>"ستتمكن من القيام بأي عمل بدون مشاكل، وستتمكن من المشي لمسافات طويلة دون ألم في الساقين. مشكلة تورم الساقين ستنتهي."
+
+                                    </p>
+                                    <p><b>الراحة</b></p>
+                                    <p>"ستشعر براحة في جسمك. لن يكون لديك آلام متكررة تمنعك من القيام بأي شيء."
+
+
+                                    </p>
+                                    <p><b>"قمنا بإجراء تقييم لبعض المستخدمين للمنتج . أود أن أقدم لك النتائج. شارك في الدراسة 270 مشاركًا."
+
+
+                                    </b></p>
+                                    <ul class="ListBlock-root ListBlock-ul">
+                                        <li>"إزالة السموم والنفايات من الغدد الليمفاوية: 96% من المشاركين"
+
+
+                                        </li>
+                                        <li>"تم إنتاج السائل الزليلي بالكمية المطلوبة وتحسين وظيفة النظام العضلي الهيكلي: 98% من المشاركين"
+
+
+                                        </li>
+                                        <li>"تحسين عمل  الأقراص المفصلية إلى موقعها الأصلي: 94% من المشاركين"
+
+
+                                        </li>
+                                        <li>"زيادة معدل نمو الأنسجة الغضروفية: في 74% من المشاركين"
+
+
+
+                                        </li>
+                                        <li>"فعالية التحكم في المشاكل الصحية  المزمنة عالية جدًا: بنسبة 99% من المشاركين."
+
+
+                                        </li>
+                                    </ul>
+                                    <figure class="Figure inL_201001"><img alt="" src="img/content/content_5.jpg">
+                                    </figure>
+                                    <ol style="background-color: rgb(201, 197, 197);
+                          padding-top: 20px;
+                          padding-bottom: 20px;">
+                                        <li style="margin-bottom: 10px">إذا كان لديك مشاكل في المفاصل فعليك إستخدام المكمل الغذائي  <a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>.
+                                        </li>
+                                        <li style="margin-bottom: 10px">"بعد استخدام <a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>في مدة  أسبوعين فقط سيساعد في تجديد غضروف المفاصل العظمية"
+
+
+
+                                        </li>
+                                        <li style="margin-bottom: 10px">"بعد استخدام <a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>لمدة ثلاثة أسابيع فقط سيساعد في تجديد غضروف المفاصل العظمية"
+
+
+                                        </li>
+                                        <li>"بعد استخدام جرعة من <a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>ستتحسن صحة المفاصل وستصبح أقوى."
+
+
+                                        </li>
+                                    </ol>
+                                    <p>"فيما يلي صورة توضح الركبة التي تحسنت  مفاصلها وظائفها على الأشعة السينية:"
+
+
+                                    </p>
+                                    <figure class="Figure inL_201001"><img alt="" src="img/content/content_6.jpg">
+                                    </figure>
+                                    <p>"<a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>يساعد في التخلص من مشاكل و ألام  المفاصل أثناء وجودك في المنزل خلال شهر أو شهرين. <a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>ليس مجرد مسكن للألم بل يحسن تجديد الجسم على المستوى الخلوي، ويزيل سبب الألم ويساعد في تحسين صحة المفاصل."
+
+
+                                    </p>
+                                    <p>"يحتوي <a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>على العديد من المكونات الفعالة، بما في ذلك  مستخلص الكركمين و   مستخلص الزنجبيل   إلى جانب العديد من المكونات الطبيعية  التي تعزز صحة المفاصل والعمود الفقري. لن أذكر كل شيء، سأقول فقط أن هذه المكملات تهدف إلى تحسين  النظام العضلي الهيكلي بالكامل."
+
+
+                                    </p>
+                                    <p style="color: darkred; font-weight: bold">"مهم! الآن هو الوقت المناسب لبدء استخدام <a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>للتحكم في مشاكل  المفاصل. درجة الحرارة المعتدلة تسرع عملية الأيض، وتحسن الدورة الدموية في الجسم، وتزيد من تدفق الدم إلى الأعضاء الداخلية، مما يزيد من فعالية هذا المنتج. يمكن أن تعمل هذه المكملات الآن بكفاءة أعلى بنسبة 67% مقارنة بأي وقت آخر من العام."
+
+
+                                    </p>
+                                    <p>"الكاتب: كم يكلف <a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>وأين يمكنك شراؤه؟"
+
+
+                                    </b></p>
+                                    <p>"لترويج <a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>أكثر، الشركة المصنعة في الجزائر تقدم  عرضًا خاصًا سيسمح لجميع الجزائريين  بالطلب بخصم يصل <b>إلى 65% و الدفع عن الإستلام حتى باب المنزل </b>. أعتقد أن هذا سيعمل وسيحصل الجميع على نتائج جيدة ويوصون بالمنتج لأصدقائهم وعائلاتهم."
+
+
+                                        <b></b></p>
+                                    <div id="scroll"></div>
+                                    <div id="to-form"></div>
+                                    <div class="cpa_wr">
+                                        <div class="cpa_form-wr">
+                                            <div class="cpa_img-block"><img class="cpa_prod-img"
+                                                                            src="img/content/prod.png"></div>
+                                            <span class="cpa_hr-dotted-border"></span> <span class="cpa_form-title">عرض خاص!
+</span>
+                                            <div class="cpa_price-pcs"><span class="cpa_price-pcs-title">إجمالي العبوات المتاحة في التخفيض : </span><span
+                                                    class="cpa_pcs pack_count">48</span></div>
+                                            <div class="cpa_old-price"><span class="cpa_price-title"></span> <span
+                                                    class="cpa_currency price_old"><span
+                                                    class="price_land_s4">19000 </span><span
+                                                    class="price_land_curr">DZD</span></span></div>
+                                            <div class="cpa_new-price"><span
+                                                    class="cpa_new-title">السعر بعد الخصم : </span> <span
+                                                    class="cpa_new-cost price_main"><span
+                                                    class="price_land_s1">5990 </span><span
+                                                    class="price_land_curr">DZD</span><span class="hidden-pzero"></span><span
+                                                    class="price_land_curr"></span></span>
+                                                <p style="text-align: center;">
+                                                    عند شرائك دورة <a style="text-decoration: none; color: white; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>
+                                                </p>
+                                                </div>
+                                            <form data-form="v2" class="cpa_form order_form" method="post"
+                                                  action="#">
+
+
+                                                <div class="cpa_timer"><span class="cpa_timer-title">حتى انتهاء الخصم:</span>
+                                                    <div class="cpa_timer-clock">
+                                                        <!--<span class="cpa_timer-item cpa_hours"-->
+                                                        <!--                                 id="hr">01</span>: -->
+                                                        <span
+                                                                class="cpa_timer-item cpa_minutes min"
+                                                                id="min">00</span>: <span
+                                                            class="cpa_timer-item cpa_seconds sec" id="sec">04</span>
+                                                    </div>
+                                                </div>
+                                                <label class="cpa_input-label"><span class="cpa_input-label-txt">أدخل إسمك هنا </span>
+
+                                                    <div class="input-group tooltip-hide">
+                                                        <input class="cpa_input" type="text" name="name" required=""
+                                                               placeholder="أدخل إسمك هنا">
+                                                    </div>
+
+                                                </label>
+                                                <label class="cpa_input-label">
+                                                    <span class="cpa_input-label-txt">أدخل رقم هاتفك هنا </span>
+                                                    <div class="input-group tooltip-hide">
+                                                        <input style="direction:ltr;" class="cpa_input" type="text" required=""
+                                                               name="phone" minlength="8" maxlength="19"
+                                                               placeholder="أدخل رقم هاتفك هنا">
+                                                    </div>
+
+                                                </label>
+                                                <button class="cpa_submit-btn" type="submit" id="scroll-point">إتمام الطلب بتخفيض 65% 
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="Toolbar-root">
+                                        <ul class="Toolbar-list">
+                                            <li class="Toolbar-item">
+                                                <button class="ToolbarButton-button">
+                                                    <svg class="SvgSymbol-root SvgSymbol-medium SvgSymbol-fb SvgSymbol-isInToolbar"
+                                                         height="18" viewBox="0 0 16 18" width="16"
+                                                         xmlns="http://www.w3.org/2000/svg"
+                                                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <path d="M15.117 1H.883A.883.883 0 0 0 0 1.883v14.234A.883.883 0 0 0 .883 17h7.663v-6.196H6.461V8.389h2.085V6.61a2.91 2.91 0 0 1 3.106-3.192c.622-.003 1.244.03 1.863.095v2.16h-1.279c-1.002 0-1.196.476-1.196 1.176v1.541h2.39l-.31 2.415h-2.08V17h4.077a.883.883 0 0 0 .883-.883V1.883A.883.883 0 0 0 15.117 1"></path>
+                                                    </svg>
+                                                    <span class="ToolbarButton-text"></span></button>
+                                            </li>
+                                            <li class="Toolbar-item">
+                                                <button class="ToolbarButton-button">
+                                                    <svg class="SvgSymbol-root SvgSymbol-medium SvgSymbol-tw SvgSymbol-isInToolbar"
+                                                         height="18" viewBox="0 0 20 18" width="20"
+                                                         xmlns="http://www.w3.org/2000/svg"
+                                                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <path d="M20 3.1c-.7.3-1.5.6-2.4.7.8-.5 1.5-1.4 1.8-2.4-.8.5-1.7.8-2.6 1-.7-.8-1.8-1.4-3-1.4-2.3 0-4.1 1.9-4.1 4.3 0 .3 0 .7.1 1-3.3-.1-6.4-1.8-8.4-4.4-.3.6-.5 1.4-.5 2.2 0 1.5.7 2.8 1.8 3.6-.7 0-1.3-.2-1.9-.5v.1c0 2.1 1.4 3.8 3.3 4.2-.3.1-.7.2-1.1.2-.3 0-.5 0-.8-.1.5 1.7 2 2.9 3.8 3-1.3 1-3.1 1.6-5 1.6-.3 0-.7 0-1-.1C1.8 17.3 4 18 6.3 18 13.8 18 18 11.5 18 5.8v-.6c.8-.5 1.5-1.2 2-2.1"
+                                                              fill-rule="nonzero"></path>
+                                                    </svg>
+                                                    <span class="ToolbarButton-text"></span></button>
+                                            </li>
+                                            <li class="Toolbar-item">
+                                                <button class="ToolbarButton-button">
+                                                    <svg class="SvgSymbol-root SvgSymbol-medium SvgSymbol-tg SvgSymbol-isInToolbar"
+                                                         height="18" viewBox="0 0 18 18" width="18"
+                                                         xmlns="http://www.w3.org/2000/svg"
+                                                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <path d="M9 18c-5 0-9-4-9-9s4-9 9-9 9 4 9 9-4 9-9 9zm-1.5-7.4c1.1 1 2 3.3 2 3.3.4.2.7.1.8-.4l2.1-7.4c.1-.6-.2-.8-.6-.7L4 8.3c-.6.2-.6.5-.1.7 0 .1 2.4.6 3.6 1.6z"
+                                                              fill-rule="nonzero"></path>
+                                                    </svg>
+                                                    <span class="ToolbarButton-text"></span></button>
+                                            </li>
+                                            <li class="Toolbar-item">
+                                                <button class="ToolbarButton-button">
+                                                    <svg class="SvgSymbol-root SvgSymbol-medium SvgSymbol-reaction SvgSymbol-isInToolbar"
+                                                         height="16" viewBox="0 0 16 16" width="16"
+                                                         xmlns="http://www.w3.org/2000/svg"
+                                                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <path d="M1 2h14v12H1z" data-theme="light"
+                                                              fill="#D09959"></path>
+                                                        <path d="M0 1.778C0 .8.8 0 1.778 0h12.444C15.2 0 16 .8 16 1.778v12.444C16 15.2 15.2 16 14.222 16H1.778C.8 16 0 15.2 0 14.222V1.778zM6.8 11.7l2.5.8V6.2h1.6v5.5l2.5.8 1.6-2.3h-1.6V4.8L10.9 4 9.3 5.9V4.8L6.8 4 5.1 5.9V4.8L2.6 4 1 6.2h1.6v5.5l2.5.8V6.2h1.7v5.5z"></path>
+                                                    </svg>
+                                                    <span class="ToolbarButton-text">محمد أشرف </span></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h4 class="SimpleBlock-h4"><strong>تعليقات : </strong></h4>
+                                    <div class="comments__kma" style="margin-top: 0px">
+
+                                        <!-- <div class="comment-write mycomment"
+                                             style="max-height: 0px; margin: 0px; padding: 0px; border: none">
+                                            <div class="mycomment-info"><p class="loading">Dr. Ertugrul écrit un
+                                                message.</p></div>
+                                        </div> -->
+                                        <!-- <div class="comment-write-second mycomment" style="max-height: 0px;
+                            margin: 0px;
+                            padding: 0px;
+                            border: none;
+                            display: none;">
+                                            <div class="mycomment-info"><p class="loading">Shayma écrit un message.</p>
+                                            </div>
+                                        </div> -->
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/women/1.png"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">حليمة محمد
+                                                </p>
+                                                    <p class="mycomment-text">شكرا لكم على هذا المنتج. لقد كنت أبحث عن شيء مثل هذا لفترة طويلة. لقد طلبته بسعر مخفض وأنا أتطلع إلى استلامه! شكرًا لك!
+
+                                                    </p><img src="img/product/comment_6.jpg"
+                                                             style="max-width: 250px" alt="">
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-0"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                      
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/men/2.jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">محمد</p>
+                                                    <p class="mycomment-text">لو سمحت! لو سمحت! لو سمحت! لقد تعبت من آلام الظهر . لا أعرف ماذا أفعل حيال ذلك. أستخدم مجموعة من الحبوب، وأحيانًا أضع الجل على القرحة ولكن لا شيء يساعد.
+
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-0"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                       
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/men/3.jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">شعبان</p>
+                                                    <p class="mycomment-text">، شكرًا على هذا المنتج! لقد أنقذت ليس زوجتي فحسب، بل أنا أيضاً أنقذت نفسي . لقد جربت مؤخرًا هذا المكمل الغذائئي لمشكلة العمود الفقري العنقي، وأنا أعاني من داء العظم الغضروفي والآن أشعر بالتحسن. أتمنى أن يكون المستقبل أفضل!
+
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-0"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/women/2.jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">انتصار</p>
+                                                    <p class="mycomment-text">انه مثالي ! إنه منتج فعال جداً لمشاكل المفاصل! لم يعد لدي آلام في الكوع والركبة.
+                                                        !</p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-1"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/men/4.jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">مصطفى</p>
+                                                    <p class="mycomment-text">لقد سمعت عن هذا المنتج من قبل. المنتج جيد جدا! صديقي طلبه أيضا. بعد إصابتي، حصلت على مشاكل في القدم. لقد كنت أعاني من ألم شديد لمدة عامين ولم تساعدني العديد من المنتجات ... الآن قرأت هذا المقال وقررت طلب <a style="text-decoration: none; color: brown; font-weight: 600;"
+                                                href="#scroll">ArthroFix</a>. الآن سأطلبه و سأجرب ذلك بالتأكيد.
+
+                                                    </p><img style="max-width: 250px"
+                                                             src="img/product/comment_2.jpg" alt="">
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-1"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                       
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/men/5.jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">محمود</p>
+                                                    <p class="mycomment-text">يا شباب هل هذا يساعد حقا؟ العديد من المنتجات لم تساعدني، ولا أعرف ماذا أفعل غير ذلك.
+
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-1"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/men/6.jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">رامي</p>
+                                                    <p class="mycomment-text">شكراً على هذا الابتكار!!! لقد ساعدت بزاف ناس ومن بينهم زوجتي. بدأت استخدام منتج "ArthroFix" والنتائج كانت ممتازة. نشعر بتحسن كبير.
+                                                    </p><img
+                                                            style="max-width: 250px" src="img/product/comment_4.jpg"
+                                                            alt="">
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-1"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/men/7.jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">حبيب</p>
+                                                    <p class="mycomment-text">أنا مدرب رياضي، نتعرض بزاف للإصابات. "ArthroFix" ساعدني بزاف. هذا المنتج يخفف الألم ويعجل الشفاء.
+
+
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-1"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/men/8.jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">محمود</p>
+                                                    <p class="mycomment-text">ننصحك تطلبي منتج "ArthroFix". كنت نعاني من مشاكل في المفاصل وما كنتش نقدر نمشي. أمي سمعت على المنتج ونصحتني نستخدمه. استعملتو من 6 أشهر، والنتائج كانت رائعة. مفاصلي ما عادش توجعني.
+
+
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-1"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                       
+                                        
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/men/m (1).jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">يوسف</p>
+                                                    <p class="mycomment-text">سمعت على هذا المنتج من بعض الأصدقاء اللي جربوه. عندي ألم مستمر في الساق. قررت نطلب "ArthroFix" ونشوف النتائج.
+
+
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-2"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/men/m (2).jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">صالح</p>
+                                                    <p class="mycomment-text">أنا مندهش من عدد الناس اللي يعانوا من مشاكل في المفاصل. لحسن الحظ، اكتشفت منتج "ArthroFix" قبل شهر وساعدني بزاف.
+
+
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-2"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                        
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/women/3.png"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">مريم</p>
+                                                    <p class="mycomment-text"> شكراً لك على هذا المنتج الرائع. كنت نبحث لفترة طويلة عن منتج فعال. قدمت طلب ونستنى في استلامه! شكراً لك!
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-2"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/women/4.jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">عائشة</p>
+                                                    <p class="mycomment-text"> شكراً لك على هذا المنتج الرائع. كنت نبحث لفترة طويلة عن منتج فعال. قدمت طلب ونستنى في استلامه! شكراً لك!
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-2"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                      
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/women/5.jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">جميلة</p>
+                                                    <p class="mycomment-text">نأكد! "ArthroFix" منتج فعال للمساعدة في تحسين المفاصل! مرفقي وركبتي ما عادتش توجعني.
+
+
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-2"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                     
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/women/6.jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">سعاد</p>
+                                                    <p class="mycomment-text">إخوتي وأخواتي، رجاءً ساعدوني! عندي آلام في الظهر ما نقدرش نتحملها. جربت بزاف منتجات وما نفعني والو.
+
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-3"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/women/7.jpg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">زينب</p>
+                                                    <p class="mycomment-text">كيف نقدر نطلب منتج "ArthroFix"؟
+
+
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-3"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                        <div class="mycomment"><img class="mycomment-img" src="img/people/women/8.jpeg"
+                                                                    alt="">
+                                            <div class="mycomment-info">
+                                                <div class="mycomment-info__inner"><p class="mycomment-name">رانيا</p>
+                                                    <p class="mycomment-text">طلبت المنتج لأختي من شهرين. عندها مشاكل في المفاصل. شكرتني بزاف على طلب "ArthroFix".
+
+
+                                                    </p>
+                                                    <div class="like-count"><img class="icon__small"
+                                                                                 src="img/content/i-heart.jpg"></div>
+                                                </div>
+                                                <p class="mycomment-bottom"><a href="#scroll">لايك</a> <a
+                                                        href="#scroll">تعليق</a> <span class="date-3"
+                                                                                       data-format="dd.mm.yyyy"></span>
+                                                </p></div>
+                                        </div>
+                                    </div>
+                                    <a href="#scroll" style="color: #7a8abb; text-align: center; display: block">اطلب المنتج الأن بتخفيض 65% </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<footer style="text-align: center; font-size: 14px; padding: 10px 0; color: white">
+    ©
+    <script>document.write(new Date().getFullYear())</script>
+    
+</footer>
+<!-- <script src="js/tooltips.js"></script> -->
+<script src="js/libs/blazy.min.js"></script>
+<script type="text/javascript">new Blazy({
+    selector: 'img',
+    loadInvisible: true,
+    container: '.swiper-wrapper',
+    offset: 800,
+});</script>
+<!--<script defer="defer" src="https://crm-main.fra1.cdn.digitaloceanspaces.com/public/validation.min.js"></script>-->
+<!--<script defer="defer" src="js/app.min.js"></script>-->
+
+<script>
+    $(document).ready(function () {
+        $("a[href*='#']").on("click", function (e) {
+            var anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(anchor.attr('href')).offset().top
+            }, 777);
+            e.preventDefault();
+            return false;
+        });
+    });
+</script>
+
+
+
+<!-- Скрипт домонетизации -->
+<!--<script src="https://cdn.smrtdirect.com/back/script.js"></script>-->
+
+<!--<script>-->
+<!--    document.addEventListener("DOMContentLoaded", function () {-->
+<!--        window.showcaseOnBack("https://adsssite.com/showcase?webmaster_id=3ef2b2ad-701c-41db-a868-bf453c126a2c&bunch_id=1cd5bdf8-50b8-4c20-b9a7-bed6e3f0d15e&dmType=white&utm_campaign={utmCampaign}&utm_source={utmSource}&utm_medium={utmMedium}&utm_content={utmContent}&utm_term={utmTerm}"); // ссылка на витрину-->
+<!--    });-->
+<!--</script>-->
+</body>
+</html>
